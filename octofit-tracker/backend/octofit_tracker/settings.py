@@ -25,7 +25,11 @@ SECRET_KEY = "django-insecure-r97vov4q3-*+j$slirv+$5ul@zr5u8)qhp=za-2q)ue8$5-op9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [
+    "localhost",
+    "127.0.0.1",
+    "psychic-barnacle-5g56q7jj496qc7qwx-8000.app.github.dev",
+]
 
 
 # Application definition
